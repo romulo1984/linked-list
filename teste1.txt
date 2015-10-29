@@ -1,0 +1,25 @@
+rua incluir 17 3 "Av. Fernando Ferrari"
+rua eliminar 17 3 "Av. Fernando Ferrari"
+rua eliminar 17 3 "Av. Fernando Ferrari"
+rua incluir 17 3 "Av. Fernando Ferrari"
+casa incluir 17 3 8 15 "Dalva"
+rua incluir 13 3 "Rua Carlos Martins"
+rua incluir 13 7 "Av. Munir Hilal"
+rua eliminar 13 7
+casa consumir 17 3 8 350.12
+rua eliminar 13 7
+rua incluir 13 7 "Maria da Penha"
+casa incluir 17 3 9 2 "Dona Joana"
+rua incluir 13 7 "Av. Munir Hilal"
+casa incluir 13 7 8 "Maria das Graças"
+casa consumir 13 7 8 255
+casa consumir 13 7 8 197.37
+casa consumir 17 3 9
+rua medir 13 7
+rua medir 17 3
+bairro medir 17
+casa eliminar 17 3 9
+bairro medir 13
+bairro medir 17
+casa medir 17 3 8 15
+cidade medir
