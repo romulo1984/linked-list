@@ -10,4 +10,4 @@ prog: prog.c lista.c
 	$(CC) -o prog prog.c lista.c -I.
 
 run: prog
-	./prog
+	./prog ${input}

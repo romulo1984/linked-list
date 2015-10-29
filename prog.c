@@ -38,7 +38,13 @@ int main(int argc, char** argv) {
 
     FILE* arquivo;
 
-    arquivo = fopen("teste1.txt", "r");
+    if (argv[1] == NULL)
+    {
+        printf("Erro: nome do arquivo de entrada deve ser passado como parâmetro\n");
+        return EXIT_FAILURE;
+    }
+
+    arquivo = fopen(argv[1], "r");
     saida = fopen("saida.txt", "w");
     if (arquivo == NULL) {
         printf("Erro: arquivo inexistente\n");
