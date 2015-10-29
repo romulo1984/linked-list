@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "lista.h"
-#define N 50
+#define N 100
 
 Bairro* listaBairro = NULL;
 FILE* saida;
@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     listaBairro = InsereBairro(Meatpacking, listaBairro);
     listaBairro = InsereBairro(Little, listaBairro);
     listaBairro = InsereBairro(Midtown, listaBairro);
-    
+
     Bairro* cidade = listaBairro;
 
     classe = (char*) (malloc(N * sizeof (char)));
